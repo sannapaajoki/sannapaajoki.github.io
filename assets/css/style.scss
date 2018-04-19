@@ -1,7 +1,8 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import 'jekyll-theme-cayman';
+@import 'variables';
 
 $header-heading-color: #fff !default;
 $header-bg-color: #660066 !default;
