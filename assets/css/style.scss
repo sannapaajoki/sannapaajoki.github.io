@@ -2,8 +2,7 @@
 ---
 
 @import 'jekyll-theme-cayman';
-@import 'variables';
 
-$header-heading-color: #fff !default;
-$header-bg-color: #660066 !default;
-$header-bg-color-secondary: #cc0066 !default;
+.page-header {
+  background-color: #660066;
+  background-image: linear-gradient(120deg, #cc0066, #660066); }
