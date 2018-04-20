@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## My personal GitHub website
 
-You can use the [editor on GitHub](https://github.com/sannapaajoki/sannapaajoki.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is my personal website with a simplified CV and a blog. The content is written in Finnish.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I've used the Jekyll theme Caiman with some minor modifications. The CV uses a responsive [W3.CSS framework](https://www.w3schools.com/w3css/default.asp). The pages are made with HTML and the blog posts are written with markdown.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sannapaajoki/sannapaajoki.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+My plan is to keep the website fairly simple and to use it in my job search. I'll be writing about my learning experiences on the blog.
