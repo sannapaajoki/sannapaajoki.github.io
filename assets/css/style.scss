@@ -1,9 +1,16 @@
 ---
 ---
 
-$body-link-color: #3366ff;
+@import "{{ site.theme }}";
 
-@import 'jekyll-theme-cayman';
+a {
+  color: #3366ff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
 .page-header {
   background-color: #000066;
