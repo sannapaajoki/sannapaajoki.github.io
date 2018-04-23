@@ -1,29 +1,34 @@
 ---
 ---
 
+// Headers
+$header-heading-color: #fff !default;
+$header-bg-color: #000066;
+$header-bg-color-secondary: #993366;
+
+// Text
+$section-headings-color: #993366;
+$body-text-color: #606c71 !default;
+$body-link-color: #1357bd;
+$blockquote-text-color: #819198 !default;
+
 @import "{{ site.theme }}";
 
-a {
-  color: #3366ff;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
+.myfloat-row {
+  border: 1px solid #808080;
+}
+.myfloat-row::before,.myfloat-row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.page-header {
-  background-color: #000066;
-  background-image: linear-gradient(120deg, #993366, #000066);
-}
+.myfloat-3 {
+  float: left;
+  width: 33.33333%;
+  padding: 0 0.75rem;
 
-.main-content {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: #993366;
+  @include small {
+    width: 100%;
   }
 }
