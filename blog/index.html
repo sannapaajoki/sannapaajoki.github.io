@@ -4,11 +4,12 @@ title: Blogi
 ---
 
 	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
+	<ul class="fa-ul">
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date: "%d.%m.%Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-		{{ post.excerpt }}
+	    <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+				<strong><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></strong> <span>{{ post.date | date: "%d.%m.%Y" }}</span>
+				<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}" title="{{ post.title }}">&lsqb;Lue lisää&rsqb;</a></p>
 	    </li>
 	  {% endfor %}
 	</ul>
