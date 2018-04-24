@@ -15,12 +15,13 @@ $blockquote-text-color: #819198 !default;
 @import "{{ site.theme }}";
 
 .myfloat-row {
-  border: 1px solid #808080;
-}
-.myfloat-row::before,.myfloat-row::after {
-  content: "";
-  display: table;
-  clear: both;
+  border: 1px solid #c4c4c4;
+
+  &:before, &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 .myfloat-3 {
@@ -31,4 +32,21 @@ $blockquote-text-color: #819198 !default;
   @include small {
     width: 100%;
   }
+}
+
+.myfooter {
+  text-align: center;
+  font-size: 2em;
+
+  & a {
+    color: $body-text-color;
+  }
+  & a:hover {
+    color: $section-headings-color;
+  }
+}
+
+
+.site-footer-credits {
+  text-align: center;
 }
